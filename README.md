@@ -45,4 +45,34 @@ This project digitizes the traditional feedback system used in colleges and inst
 ---
 
 ## 📁 Project Structure
+project-folder/
+│── admin/
+│── frontend/
+│── assets/
+│── config/
+│ └── db.php
+│── vendor/ (if using PHPMailer)
+│── index.php
+
+
+
+## 🗄️ Database Setup
+
+1. Create database `online_feedback`
+2. Import provided SQL file
+3. Update `config/db.php`:
+
+```php
+<?php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "online_feedback";
+
+$conn = new mysqli($host, $user, $pass, $db);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
 
