@@ -75,4 +75,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
+<img width="1024" height="1024" alt="ChatGPT Image Dec 2, 2025, 09_54_19 PM" src="https://github.com/user-attachments/assets/2a8747e0-9b5f-4e18-a6ca-6897437ea382" />
+<img width="1024" height="1024" alt="ChatGPT Image Dec 2, 2025, 10_04_30 PM" src="https://github.com/user-attachments/assets/cd0dff11-19b9-4fbf-ae39-5f0f9f934c67" />
+
 
